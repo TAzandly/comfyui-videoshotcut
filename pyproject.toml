@@ -1,0 +1,17 @@
+[project]
+name = "comfyui-videoshotcut"
+description = "Timeline video shot-cut node: auto/manual splits, frame preview, export mp4 segments with audio."
+version = "0.1.0"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/YOUR_GITHUB_USERNAME/comfyui-videoshotcut"
+
+[tool.comfy]
+PublisherId = "YOUR_PUBLISHER_ID"
+DisplayName = "ComfyUI-VideoShotCut"
+Icon = ""
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

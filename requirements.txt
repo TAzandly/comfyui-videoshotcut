@@ -1,0 +1,1 @@
+# System ffmpeg/ffprobe required. No mandatory PyPI deps for v1.
