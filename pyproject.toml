@@ -6,7 +6,7 @@ license = { file = "LICENSE" }
 dependencies = []
 
 [project.urls]
-Repository = "https://github.com/YOUR_GITHUB_USERNAME/comfyui-videoshotcut"
+Repository = "https://github.com/zhangdduo/comfyui-videoshotcut"
 
 [tool.comfy]
 PublisherId = "YOUR_PUBLISHER_ID"
