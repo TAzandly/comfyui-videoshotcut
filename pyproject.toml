@@ -6,10 +6,10 @@ license = { file = "LICENSE" }
 dependencies = []
 
 [project.urls]
-Repository = "https://github.com/zhangdduo/comfyui-videoshotcut"
+Repository = "https://github.com/TAzandly/comfyui-videoshotcut"
 
 [tool.comfy]
-PublisherId = "YOUR_PUBLISHER_ID"
+PublisherId = "tazandly"
 DisplayName = "ComfyUI-VideoShotCut"
 Icon = ""
 
