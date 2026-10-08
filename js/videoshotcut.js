@@ -314,7 +314,7 @@ function createTimelineUI(node) {
     zoomLabel.style.cssText = "color:#777;min-width:36px;flex-shrink:0;";
     zoomLabel.textContent = "1×";
 
-    const delBtn = makeBtn("删除", "删除选中的分割点 (Delete)");
+    const delBtn = makeBtn("Delete", "Delete selected cut point");
     delBtn.style.display = "none";
     delBtn.style.background = "#5a2a2a";
     delBtn.style.borderColor = "#844";
@@ -1209,7 +1209,7 @@ function createTimelineUI(node) {
         const mi = hitMarker(x, y);
         const items = [
             {
-                label: "在帧指示线处分割",
+                label: "Split at playhead",
                 action: () => addCutAt(state.playhead),
             },
             null,
@@ -1239,14 +1239,14 @@ function createTimelineUI(node) {
         if (mi >= 0) {
             items.push(null);
             items.push({
-                label: `选中并删除 #${mi + 1}`,
+                label: `Select and delete #${mi + 1}`,
                 action: () => {
                     selectMarker(mi);
                     deleteMarkerAt(mi);
                 },
             });
             items.push({
-                label: `选中分割点 #${mi + 1}`,
+                label: `Select cut #${mi + 1}`,
                 action: () => selectMarker(mi),
             });
         }

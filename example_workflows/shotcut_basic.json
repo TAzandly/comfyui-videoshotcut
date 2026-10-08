@@ -69,10 +69,10 @@
       "mode": 0,
       "inputs": [],
       "outputs": [],
-      "title": "VideoShotCut 用法",
+      "title": "VideoShotCut usage",
       "properties": {},
       "widgets_values": [
-        "1. 将 MP4 等视频放入 ComfyUI input/，在此节点选择 video_file（或连接上游 VIDEO）。\n2. 在时间轴双击添加切点，或右键自动分镜/按秒数切分。\n3. 至少添加一个切点后再 Queue；空切点会报错：请至少添加一个切点。\n4. 片段输出到 output/shotcut_000.mp4 …"
+        "1. Put an MP4 (etc.) in ComfyUI input/ and select video_file (or connect upstream VIDEO).\n2. Double-click the timeline to add cuts, or right-click for auto scene / fixed-interval split.\n3. Add at least one cut before Queue; empty cuts raise: Please add at least one cut point.\n4. Segments export under output/videoshotcut/{prefix}_#####/."
       ],
       "color": "#432",
       "bgcolor": "#653"

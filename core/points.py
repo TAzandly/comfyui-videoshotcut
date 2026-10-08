@@ -1,6 +1,6 @@
 import json
 
-EMPTY_POINTS_MSG = "请至少添加一个切点"
+EMPTY_POINTS_MSG = "Please add at least one cut point"
 
 
 def normalize_points(points, total_frames: int) -> list[int]:

@@ -46,7 +46,7 @@ Search **ComfyUI-VideoShotCut** / `comfyui-videoshotcut` in Extensions after Reg
 4. Enable **export_first_frame** if you need each shot's first frame as PNG.
 5. **Queue Prompt**. Watch progress; results appear in **file_paths** / **first_frame_paths**.
 
-> At least one cut point is required, or the node raises: `请至少添加一个切点` (Please add at least one cut point).
+> At least one cut point is required, or the node raises: Please add at least one cut point.
 
 ### Example workflow
 
